@@ -11,7 +11,7 @@ public class FabricaConexao {
     private static Connection conexao;
     private static final String URL_CONEXAO = "jdbc:mysql://localhost/sistema-carros";
     private static final String USUARIO = "root";
-    private static final String SENHA = "Jogando22$";
+    private static final String SENHA = "";
 
     public static Connection getConexao() throws ErroSistema{
         if (conexao == null) {
